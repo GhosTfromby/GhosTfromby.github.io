@@ -1,0 +1,118 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {height: 100%;}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    font-family: "Monotype Corsiva", sans-serif;
+    line-height: 135%;
+}
+
+a {
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+
+a:hover {
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+
+a:active {color: lightyellow;}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto/9;
+}
+
+.left {
+    float: left;
+    color: white;
+}
+
+/* Selection Block */
+
+::selection{background: ; color: #fff;}
+-moz-::selection{background: ; color: #fff;}
+
+header, footer {
+    width: 98%;
+}
+
+header {
+
+    padding: 0.5%;
+}
+
+menu {
+  float: center;
+  width: 80%;
+  border-bottom: 2px silver;
+}
+
+menu div {
+    color: MintCream;
+    font-size: 3em;
+    font-variant: small-caps;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+menu a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: white;
+}
+
+menu a:hover {color: yellow;}
+
+li{display: inline-block;
+   padding: 5px;}
+
+footer {
+    margin-top: 10px;
+    padding: 1%;
+    padding-bottom: 2%;
+}
+
+#Page-Wrap:after {
+    content: "";
+    display: block;
+}
+
+footer, #Page-Wrap:after {height: 10px;}
+
+#Page-Wrap {
+    min-height: 94%;
+    margin-bottom: -10px;
+}
+
+h3 {
+    margin-top: 50px;
+    font-size: 4em;
+    padding: 50px;
+    color: Brown;
+    margin-bottom: -50px;
+}
+
+h3 div {margin-left: 100px;}
+
+#education {
+    padding-left: 25em;
+    padding-top: 2em;
+    line-height: 3em;
+}
+
+#education h1 {padding-left: 1em;}
+
+hr {margin:1em;}
