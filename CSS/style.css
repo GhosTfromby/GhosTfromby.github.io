@@ -116,3 +116,25 @@ h3 div {margin-left: 100px;}
 #education h1 {padding-left: 1em;}
 
 hr {margin:1em;}
+
+#career {
+    padding-left: 40em;
+    padding-top: 2em;
+    line-height: 2em;
+}
+
+#education hr {width: 40;}
+
+#skills_left {
+    float: left;
+}
+
+#skills_right {
+    float: right;
+}
+
+#CV {
+    margin-left: 15em;
+    width: 50em%;
+    height: 50em;
+}
