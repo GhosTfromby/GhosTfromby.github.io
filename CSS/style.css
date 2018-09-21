@@ -70,7 +70,7 @@ menu div {
 }
 
 menu a {
-    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    text-decoration: none;
     color: white;
 }
 
@@ -109,6 +109,7 @@ h3 div {margin-left: 100px;}
 
 #education {
     padding-left: 25em;
+    padding-right: 20em;
     padding-top: 2em;
     line-height: 3em;
 }
@@ -118,23 +119,78 @@ h3 div {margin-left: 100px;}
 hr {margin:1em;}
 
 #career {
-    padding-left: 40em;
+    padding-left: 17em;
+    padding-right: 35em;
     padding-top: 2em;
     line-height: 2em;
+    color: white;
 }
-
-#education hr {width: 40;}
 
 #skills_left {
     float: left;
+    font-size: 2em;
+    line-height: 120%;
+    font-family: Courier;
+    margin-left: 40px;
+    color: Lime;
+
+}
+
+#framework {
+    margin-left: 5em;
+    color: Green;
 }
 
 #skills_right {
     float: right;
+    font-size: 2em;
+    line-height: 120%;
+    font-family: Times New Roman;
+    margin-right: 40px;
+    margin-top: 120px;
+    color: Blue;
 }
 
 #CV {
     margin-left: 15em;
     width: 50em%;
     height: 50em;
+}
+
+#contact {
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: Times New Roman;
+}
+
+#contact img {width: 20%;}
+
+#contact a {
+    text-decoration: none;
+    color: white;}
+
+#links {
+    margin-left: 1.2em;
+    margin-top: 1em;
+    font-family: Times New Roman;
+}
+
+#links img {width: 2.3%;}
+
+.shadow {
+    text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
+    color: red;
+}
+
+
+
+
+.submenu {
+  position: absolute;
+  transform: rotateX(-90deg);
+  transform-origin: 0% 0%;
+  transition: .6s ease-in-out;
+}
+.topmenu > li:hover .submenu {
+    transform: rotateX(0deg);
 }
