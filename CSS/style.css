@@ -41,8 +41,6 @@ img {
     color: white;
 }
 
-/* Selection Block */
-
 ::selection{background: ; color: #fff;}
 -moz-::selection{background: ; color: #fff;}
 
