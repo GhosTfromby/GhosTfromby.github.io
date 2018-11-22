@@ -41,6 +41,8 @@ img {
     color: white;
 }
 
+/* Selection Block */
+
 ::selection{background: ; color: #fff;}
 -moz-::selection{background: ; color: #fff;}
 
@@ -54,9 +56,7 @@ header {
 }
 
 menu {
-  float: center;
-  width: 80%;
-  border-bottom: 2px silver;
+	opacity: 0.5;
 }
 
 menu div {
@@ -83,33 +83,34 @@ footer {
     padding-bottom: 2%;
 }
 
-#Page-Wrap:after {
+#Wrapper:after {
     content: "";
     display: block;
 }
 
-footer, #Page-Wrap:after {height: 10px;}
+footer, #Wrapper:after {height: 10px;}
 
-#Page-Wrap {
+#Wrapper {
     min-height: 94%;
     margin-bottom: -10px;
 }
 
-h3 {
-    margin-top: 50px;
-    font-size: 4em;
-    padding: 50px;
-    color: Brown;
-    margin-bottom: -50px;
+#GeneralPage{
+	
+	font-size:1em;
 }
 
-h3 div {margin-left: 100px;}
+.shadow{
+	text-shadow: -1px -1px black, 1px 1px #7f1ae5, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, 1), 18px 18px 10px rgba(0, 0, 0, 1);
+
+}
 
 #education {
-    padding-left: 30%;
-    padding-right: 5%;
+    padding-left: 25em;
+    padding-right: 20em;
     padding-top: 2em;
     line-height: 3em;
+	color: white;
 }
 
 #education h1 {padding-left: 1em;}
@@ -117,8 +118,8 @@ h3 div {margin-left: 100px;}
 hr {margin:1em;}
 
 #career {
-    padding-left: 17%;
-    width: 50%;
+    padding-left: 22%;
+    width: 30%;
     padding-top: 2em;
     line-height: 2em;
     color: white;
@@ -126,7 +127,7 @@ hr {margin:1em;}
 
 #skills_left {
     float: left;
-    font-size: 150%;
+    font-size: 2em;
     line-height: 120%;
     font-family: Courier;
     margin-left: 40px;
@@ -141,7 +142,7 @@ hr {margin:1em;}
 
 #skills_right {
     float: right;
-    font-size: 150%;
+    font-size: 2em;
     line-height: 120%;
     font-family: Times New Roman;
     margin-right: 40px;
@@ -150,8 +151,8 @@ hr {margin:1em;}
 }
 
 #CV {
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 15em;
+    width: 50em;
     height: 50em;
 }
 
@@ -175,9 +176,13 @@ hr {margin:1em;}
 
 #links img {width: 2.3%;}
 
-.shadow {
-    text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
-    color: red;
+.quote {
+
+    padding-left: 0.1em;
+	font-size: 600%;
+	line-height: 1.5em;
+	opacity: 0.2;
+	text-shadow: -1px -1px white, 1px 1px red, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, 1), 18px 18px 10px rgba(0, 0, 0, 1);
 }
 
 
